@@ -1,0 +1,409 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying the adactin hotel booking login details with Members details",
+        "description": "",
+        "id": "verfying-the-adactin-hotel-booking-functionalities;verifying-the-adactin-hotel-booking-login-details-with-members-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85698406758,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the adactin hotel booking page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_the_adactin_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27087378199,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"syedabdul\",\"342H8J\",\"Sydney\",\"Hotel Creek\",\"Double\",\"1 - One\",\"23/08/2020\",\"24/08/2020\",\"2 - Two\",\"0 - None\",\"syed\",\"abdul\",\"3/353 paramakudi\",\"0987654321123456\",\"VISA\",\"May\",\"2022\" and \"987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"syedabdul\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"342H8J\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"23/08/2020\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"syed\"",
+                  "offset": 132
+                },
+                {
+                  "val": "\"abdul\"",
+                  "offset": 139
+                },
+                {
+                  "val": "\"3/353 paramakudi\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"0987654321123456\"",
+                  "offset": 166
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 185
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 192
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 198
+                },
+                {
+                  "val": "\"987\"",
+                  "offset": 209
+                }
+              ],
+              "location": "LoginPageSteps.user_should_enter_the_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9051976420,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the order number",
+            "match": {
+              "location": "LoginPageSteps.print_the_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602603356,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the log out button",
+            "match": {
+              "location": "LoginPageSteps.user_should_click_the_log_out_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verifying the adactin hotel booking login details with Members details",
+        "description": "",
+        "id": "verfying-the-adactin-hotel-booking-functionalities;verifying-the-adactin-hotel-booking-login-details-with-members-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92436227433,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the adactin hotel booking page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_the_adactin_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18654260512,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"syedabdul\",\"342H8J\",\"Melbourne\",\"Hotel Sunshine\",\"Double\",\"1 - One\",\"24/08/2020\",\"25/08/2020\",\"3 - Three\",\"1 - One\",\"arun\",\"raj\",\"26 maninagar\",\"1234567800987654\",\"VISA\",\"June\",\"2022\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"syedabdul\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"342H8J\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 129
+                },
+                {
+                  "val": "\"arun\"",
+                  "offset": 139
+                },
+                {
+                  "val": "\"raj\"",
+                  "offset": 146
+                },
+                {
+                  "val": "\"26 maninagar\"",
+                  "offset": 152
+                },
+                {
+                  "val": "\"1234567800987654\"",
+                  "offset": 167
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 186
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 193
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 200
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 211
+                }
+              ],
+              "location": "LoginPageSteps.user_should_enter_the_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9051774932,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the order number",
+            "match": {
+              "location": "LoginPageSteps.print_the_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607317629,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the log out button",
+            "match": {
+              "location": "LoginPageSteps.user_should_click_the_log_out_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verifying the adactin hotel booking login details with Members details",
+        "description": "",
+        "id": "verfying-the-adactin-hotel-booking-functionalities;verifying-the-adactin-hotel-booking-login-details-with-members-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68364957292,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the adactin hotel booking page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_the_adactin_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25169436015,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"syedabdul\",\"342H8J\",\"Brisbane\",\"Hotel Cornice\",\"Double\",\"1 - One\",\"25/08/2020\",\"26/08/2020\",\"4 - Four\",\"2 - Two\",\"rahman\",\"syed\",\"11 ganthinagar\",\"4567890876554425\",\"VISA\",\"March\",\"2022\" and \"777\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"syedabdul\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"342H8J\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"26/08/2020\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"rahman\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"syed\"",
+                  "offset": 145
+                },
+                {
+                  "val": "\"11 ganthinagar\"",
+                  "offset": 152
+                },
+                {
+                  "val": "\"4567890876554425\"",
+                  "offset": 169
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 188
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 195
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 203
+                },
+                {
+                  "val": "\"777\"",
+                  "offset": 214
+                }
+              ],
+              "location": "LoginPageSteps.user_should_enter_the_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9052442184,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the order number",
+            "match": {
+              "location": "LoginPageSteps.print_the_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677827363,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the log out button",
+            "match": {
+              "location": "LoginPageSteps.user_should_click_the_log_out_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verfying the adactin hotel booking functionalities",
+    "description": "",
+    "id": "verfying-the-adactin-hotel-booking-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
